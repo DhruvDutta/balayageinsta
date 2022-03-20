@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    background: #000 !important;
+    user-select: none;
+}
+.h1{
+    font-family: 'Amsterdam Four';
+}
+.img img{
+    filter: invert(1);
+    height: 5em;
+}
+.coming{
+    transition: .3s !important;
+}
+.img{
+    position: relative;
+}
+.foot{
+    font-size: 2.6em;
+}
+a{
+    color: #ffe !important;
+    
+    transition: .2s;
+}
+a:hover{
+    /*color: aqua !important;*/
+    transform: translateY(-7px);
+}
