@@ -1,10 +1,30 @@
+@font-face {
+    font-family: ams;
+    src: url(amsterdam-four-ttf.ttf)
+  }
+
 body{
     min-height: 100vh;
     background: #000 !important;
     user-select: none;
+
 }
-.h1{
-    font-family: 'Amsterdam Four';
+.bg{
+    display: inline;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50vh;
+    width: 50vh;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0.05em solid #111;
+    font-size: 15em;
+    color: #111;
+}
+.headname{
+    font-size: 2em;
+    font-family: ams;
 }
 .img img{
     filter: invert(1);
