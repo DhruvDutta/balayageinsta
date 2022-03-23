@@ -2,12 +2,31 @@
     font-family: ams;
     src: url(amsterdam-four-ttf.ttf)
   }
-
+  
+@font-face {
+font-family: lobs;
+src: url(Lobster-Regular.ttf)
+}
 body{
     min-height: 100vh;
     background: #000 !important;
     user-select: none;
+}
+body::-webkit-scrollbar{
+    width: .25em;
+    transition: width 1s;
+    position: absolute;
 
+}
+body::-webkit-scrollbar:hover{
+    width: .7em !important;
+}
+body::-webkit-scrollbar-track{
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0.2em;
 }
 .bg{
     display: inline;
@@ -18,12 +37,17 @@ body{
     height: 50vh;
     width: 50vh;
     font-family: 'Times New Roman', Times, serif;
-    border: 0.05em solid #111;
+    border: 0.05em solid #222;
     font-size: 15em;
-    color: #111;
+    color: #222;
+    z-index: -1;
+}
+object{
+    border: 2px solid #555;
+    box-shadow: 1px 1px 15px #222;
 }
 .headname{
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: ams;
 }
 .img img{
@@ -47,4 +71,7 @@ a{
 a:hover{
     /*color: aqua !important;*/
     transform: translateY(-7px);
+}
+.heading{
+    font-family: lobs !important;
 }
