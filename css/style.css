@@ -75,3 +75,22 @@ a:hover{
 .heading{
     font-family: lobs !important;
 }
+.navbar{
+    opacity: 0;
+    animation: fadein 1s forwards;
+}
+.pl-head{
+    opacity: 0;
+    animation: fadein 1s .5s forwards;
+}
+.pdf{
+    opacity: 0;
+    animation: fadein 1s 1s forwards;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
