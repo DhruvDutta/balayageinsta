@@ -4,6 +4,6 @@ function book(){
     var process = document.getElementById('process').value;
     var contact = document.getElementById('from').value;
     var msg = `Name:${name}\nLocation:${location}\nProcess:${process}\nContact:${contact}`
+    msg= encodeURIComponent(msg)
     window.open(`mailto:balayageinsta@gmail.com?subject=Appointment&body=${msg}`);
-
 }
