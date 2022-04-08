@@ -94,3 +94,18 @@ a:hover{
         opacity: 1;
     }
 }
+input,select{
+    background: #111 !important;
+    border-color: #222 !important;
+    color: #ffe !important;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.book:hover{
+    background-color: black !important;
+    color: #ffe !important;
+}
+form{
+    background: #000;
+}
