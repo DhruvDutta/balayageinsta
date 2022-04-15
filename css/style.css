@@ -73,7 +73,7 @@ a:hover{
     transform: translateY(-7px);
 }
 .heading{
-    font-family: lobs !important;
+    /*font-family: lobs !important;*/
 }
 .navbar{
     opacity: 0;
