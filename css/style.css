@@ -112,3 +112,6 @@ input,select{
 form{
     background: #000;
 }
+.nav .col{
+    cursor: pointer;
+}
