@@ -1,0 +1,27 @@
+
+.bg-light{
+    background-color: #fff !important;
+}
+.navbar img{
+    max-height: 3em;
+}
+.navbar{
+    background-color: #000 !important;
+    z-index: 5;
+}
+.row1{
+    height: 100svh;
+}
+.row1 img{
+    position: absolute;
+    max-height: 90svh;
+    z-index: -1;
+}
+.head{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.para{
+    font-size: x-large;
+    font-weight: 300;
+}
