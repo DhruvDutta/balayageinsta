@@ -1,3 +1,4 @@
+
 .bg-light{
     background-color: #fff !important;
 }
@@ -5,14 +6,11 @@
     background-color: #000 !important;
 }
 .navbar img{
-    max-height: 3em;
+    max-height: 3em !important;
 }
 .navbar{
     background-color: #000 !important;
     z-index: 5;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 .row1{
     height: 90svh;
@@ -21,6 +19,7 @@
     position: absolute;
     max-height: 90svh;
     z-index: -1;
+    left: 0;
 }
 .head{
     font-size: 3vw;
@@ -37,11 +36,13 @@
     font-size: x-large;
     font-weight: 300;
 }
-.card{
+.my-card{
     border: None;
-    padding: .5em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 1em;
 }
-.card img{
+.my-card img{
     border: none;
     outline: none;
     border-radius: 1em;
@@ -49,9 +50,23 @@
     height: 15em;
     object-fit: cover;
 }
+.row4{
+    position: relative;
+}
 .row5{
+    min-height: 50vh;
+}
+.row6{
     height: 60vh;
 }
-.row5 iframe{
+.row6 iframe{
     border-radius: 1em;
+    min-height: 15em;
+}
+form input,form textarea{
+    border: none;
+    background-color: #eee;
+    padding: .3em .7em;
+    border-radius: .5em;
+    margin: .5em 0;
 }

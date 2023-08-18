@@ -8,3 +8,11 @@ function book(){
     msg= encodeURIComponent(msg)
     window.open(`mailto:balayageinsta@gmail.com?subject=Appointment&body=${msg}`);
 }
+function book1(){
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var msg = `Name:${name}\nEmail:${email}\nMessage:${message}`
+    msg= encodeURIComponent(msg)
+    window.open(`mailto:balayageinsta@gmail.com?subject=Customer Contact&body=${msg}`);
+}
