@@ -58,6 +58,7 @@
 }
 .row6{
     height: 60vh;
+    position: relative;
 }
 .row6 iframe{
     border-radius: 1em;
@@ -69,4 +70,8 @@ form input,form textarea{
     padding: .3em .7em;
     border-radius: .5em;
     margin: .5em 0;
+}
+.footer a{
+    font-size: x-large;
+    color: #000;
 }
