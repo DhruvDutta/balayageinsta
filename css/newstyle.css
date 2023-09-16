@@ -6,7 +6,7 @@
     background-color: #000 !important;
 }
 .navbar img{
-    max-height: 3em !important;
+    max-height: 2.7em !important;
 }
 .row2 .col{
     padding: .5em;
@@ -78,7 +78,7 @@ form input,form textarea{
     margin: .5em 0;
 }
 .footer a{
-    font-size: x-large;
+    font-size: xx-large;
     color: #000;
 }
 .made a{
