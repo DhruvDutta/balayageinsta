@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding:5em;
+}
 .bg-light{
     background-color: #fff !important;
 }
